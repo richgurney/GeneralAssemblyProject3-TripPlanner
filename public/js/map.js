@@ -222,7 +222,7 @@ function getNearbyPlaces(mode,lat,lng) {
   service.nearbySearch({
     location: dest,
     radius: 500,
-    types: ['amusement_park','aquarium','art_gallary','church','museum','park','stadium','zoo']
+    types: ['amusement_park','aquarium','art_gallary','church','museum','park','stadium','zoo','city_hall','library','restaurant','shopping_mall','stadium','spa']
   }, callback);
 }
 
@@ -431,11 +431,10 @@ function getTrip(places) {
   
 }
 
-
 function callback(results, status) {
   if (status === google.maps.places.PlacesServiceStatus.OK) {
 
-    getTrip(results.slice(0, 9));
+    getTrip(results.slice(0, 15));
 
   }
 }

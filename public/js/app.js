@@ -137,7 +137,7 @@ function populateTripsList() {
 
 			$("#trips-list").append(tripsListRow);
 
-			$(".trip-title[data-trip-id='" + data[i]._id + "']").css('background-image', "url('https://maps.googleapis.com/maps/api/staticmap?center=" + data[i].destination + "&zoom=13&size=900x200&maptype=roadmap&key=AIzaSyDiCc-BJ1GrJsQCnlq5mCV1lxjoT2DTbeg')");
+			$(".trip-title[data-trip-id='" + data[i]._id + "']").css('background-image', "url('https://maps.googleapis.com/maps/api/staticmap?center=" + data[i].destination + "&zoom=13&size=900x200&maptype=roadmap&key=AIzaSyDv5x3Uc0isWtRd1wiuVOTCtDi65YU_qD4')");
 			$(".trip-title[data-trip-id='" + data[i]._id + "']").css('background-size', 'cover');
 			$(".trip-title[data-trip-id='" + data[i]._id + "']").css('height', '200px');
 			$(".trip-title[data-trip-id='" + data[i]._id + "']").css('width', '100%');

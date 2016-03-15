@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/robascott/DayTripper.git"
+    "url": "git+https://github.com/richgurney/Trip-Planner.git"
   },
   "author": "",
   "license": "ISC",
@@ -33,7 +33,7 @@
     "passport-local": "~0.1.6"
   },
   "bugs": {
-    "url": "https://github.com/robascott/DayTripper/issues"
+    "url": "https://github.com/richgurney/Trip-Planner.git/issues"
   },
-  "homepage": "https://github.com/robascott/DayTripper#readme"
+  "homepage": "https://github.com/richgurney/Trip-Planner.git#readme"
 }

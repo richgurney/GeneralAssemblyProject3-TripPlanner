@@ -50,7 +50,13 @@ app.use(express.static(__dirname + '/public'));
 app.use(cookieParser());
 app.use(morgan('dev'));
 app.use(cors());
-app.use(session({ secret: 'WDI-GENERAL-ASSEMBLY-EXPRESS' })); 
+
+app.use(session({ 
+  secret: 'WDI-GENERAL-ASSEMBLY-EXPRESS',
+  resave: true,
+  saveUninitialized: true 
+})); 
+
 app.use(passport.initialize());
 // app.use(passport.session()); 
 app.use(flash()); 
